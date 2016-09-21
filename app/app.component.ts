@@ -5,7 +5,6 @@ import { SearchComponent } from './components/search/search.component';
 @Component({
   moduleId: module.id,
   selector: 'my-app',
-  templateUrl: 'app.component.html',
-  precompile: [ AboutComponent, SearchComponent ]
+  templateUrl: 'app.component.html'
 })
 export class AppComponent { }
