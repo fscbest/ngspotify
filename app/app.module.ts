@@ -7,6 +7,7 @@ import { AppComponent }  from './app.component';
 import { routing, appRoutingProviders }  from './app.routing';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/about/about.component';
+import { ArtistComponent } from './components/artist/artist.component';
 import { SearchComponent } from './components/search/search.component';
 
 @NgModule({
@@ -18,6 +19,7 @@ import { SearchComponent } from './components/search/search.component';
   declarations: [ AppComponent,
     NavbarComponent,
     AboutComponent,
+    ArtistComponent,
     SearchComponent
   ],
   providers: [ appRoutingProviders ],
