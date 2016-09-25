@@ -2,12 +2,14 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutComponent } from "./components/about/about.component";
+import { AlbumComponent } from './components/album/album.component';
 import { ArtistComponent } from "./components/artist/artist.component";
 import { SearchComponent } from './components/search/search.component';
 
 const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'artist/:id', component: ArtistComponent },
+  { path: 'album/:id', component: AlbumComponent },
   { path: '', component: SearchComponent },
   { path: '**', component: AboutComponent }
 ];
